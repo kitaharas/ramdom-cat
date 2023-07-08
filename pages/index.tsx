@@ -6,7 +6,6 @@ type Props = {
   initialImageUrl: string;
 };
 
-
 const IndexPage: NextPage<Props> = ({initialImageUrl}) => {
 
   console.log(initialImageUrl);
